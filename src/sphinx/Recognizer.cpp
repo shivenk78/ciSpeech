@@ -249,6 +249,6 @@ namespace sphinx {
 		ctx->enable();
 		// Start runner thread:
 		mThread = std::thread( &Recognizer::run, this );
-	}
+        }
 	
 } // namespace sphinx

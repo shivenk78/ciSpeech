@@ -179,7 +179,6 @@ namespace sphinx {
 		void run();
 		
 	  public:
-		
 		/** @brief static creational method */
 		static RecognizerRef create(const ci::fs::path& hmmPath, const ci::fs::path& dictPath)
 		{
